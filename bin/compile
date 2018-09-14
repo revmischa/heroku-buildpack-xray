@@ -10,7 +10,7 @@ CACHE_DIR=$2
 ENV_DIR=$3
 DPKG_DIR=$BUILD_DIR/.dpkg
 DPKG_CACHE_DIR=$CACHE_DIR/dpkg/cache
-XRAY_DOWNLOAD_LINK="https://s3.dualstack.us-east-2.amazonaws.com/aws-xray-assets.us-east-2/xray-daemon/aws-xray-daemon-linux-2.x.zip"
+XRAY_DOWNLOAD_LINK="https://s3.dualstack.us-east-2.amazonaws.com/aws-xray-assets.us-east-2/xray-daemon/aws-xray-daemon-linux-3.x.zip"
 
 mkdir -p $CACHE_DIR
 mkdir -p $BUILD_DIR/bin
